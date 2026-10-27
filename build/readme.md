@@ -1,6 +1,7 @@
 ## 构建
 
-适用于无Visual Studio或.NET.SDK的情况
+适用于无Visual Studio或.NET.SDK的情况。
+
 双击 **`build.cmd`** 即可。构建脚本调用 Windows 自带的 C# 编译器 `csc.exe`（位于 `.NET Framework 4.x` 安装目录），不依赖 Visual Studio 或 .NET SDK，也无需联网。
 
 构建行为：
