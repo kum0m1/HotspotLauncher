@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
@@ -113,7 +113,7 @@ namespace HotspotLauncher
             Flush();
         }
 
-        // ---------------- 通知（方案 B）----------------
+        // ---------------- 通知 ----------------
 
         /// <summary>注册 AUMID 并发送 toast。任何失败都记进日志，不抛异常。</summary>
         private static void Notify(string body)
